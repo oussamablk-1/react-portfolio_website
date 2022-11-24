@@ -1,5 +1,9 @@
 import React from 'react'
 import "./projects.css"
+import einhar from '../../assets/einhar.png'
+import portfolio from '../../assets/portfolio.png'
+import WCS from '../../assets/WCS.png'
+import kurokabe from '../../assets/kurokabe.png'
 
 const Projects = () => {
   return (
@@ -10,13 +14,45 @@ const Projects = () => {
       <div className="container projects__container">
         <article className='project__item'>
           <div className="project__item-img">
-            <h3>Einhar</h3>
-            <a href="https://github.com/oussamablk-1/react-portfolio_website">Portfolio</a>
-            <a href="https://github.com/oussamablk-1/WCS-exercice-site-Full-Stack">Site Full Stack Wild Code School</a>
-            <a href="https://github.com/Drakmain/Einhar">Einhar</a>
-            <a href="https://github.com/Bouierck/Kurokabe">Kurokabe</a>
+            <img src={portfolio} alt="" />
+          </div>
+          <h3>Porfolio</h3>
+          <div className="projects__item-cta">
+            <a href="https://github.com/oussamablk-1/react-portfolio_website" className='btn'>GitHub</a>
           </div>
         </article>
+
+        <article className='project__item'>
+          <div className="project__item-img">
+            <img src={WCS} alt="" />
+          </div>
+          <h3>Site Full Stack Wild Code School</h3>
+          <div className="projects__item-cta">
+            <a href="https://github.com/oussamablk-1/WCS-exercice-site-Full-Stack" className='btn'>GitHub</a>
+          </div>
+        </article>
+
+        <article className='project__item'>
+          <div className="project__item-img">
+            <img src={einhar} alt="" />
+          </div>
+          <h3>Einhar</h3>
+          <div className="projects__item-cta">
+            <a href="https://github.com/Drakmain/Einhar" className='btn'>Einhar</a>          
+          </div>
+        </article>
+
+        <article className='project__item'>
+          <div className="project__item-img">
+            <img src={kurokabe} alt="" />
+          </div>
+          <h3>Kurokabe</h3>
+          <div className="projects__item-cta">
+            <a href="https://github.com/Bouierck/Kurokabe" className='btn'>Kurokabe</a>
+            <a href="https://www.youtube.com/watch?v=mwBdHmnsc00&ab_channel=NathanLABB%C3%89" className='btn btn-primary' target='_blank'>Démo Vidéo</a>        
+          </div>
+        </article>
+ 
       </div>
     </section>
   )

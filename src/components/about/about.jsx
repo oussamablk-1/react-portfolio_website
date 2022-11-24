@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <section id='about'>
       <h5> Qui je suis </h5>
-      <h2>A propos de moi</h2>
+      <h2>A propos</h2>
 
       <div className='container about__container'>
         <div className="about__me">
