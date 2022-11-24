@@ -2,6 +2,7 @@ import React from 'react'
 import "./contact.css"
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsWhatsapp} from 'react-icons/bs'
+import {AiFillTwitterCircle} from 'react-icons/ai'
 import {useRef} from 'react';
 import emailjs from 'emailjs-com'
 
@@ -41,7 +42,7 @@ export const Contact = () => {
         </article>
 
         <article className='contact__option'>
-          <BsWhatsapp className='contact__option-icon'/>
+          <AiFillTwitterCircle className='contact__option-icon'/>
           <h4>Twitter</h4>
           <h5>@DevOussb</h5>
           <a href="https://twitter.com/messages/compose?recipient_id=1589933892538089480" target='_blank'>Envoyer un message</a>
