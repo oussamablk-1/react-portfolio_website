@@ -129,10 +129,6 @@ const Competence = () => {
               <BsPatchCheckFill className='competence__detail-icons'/>
               <h4>Impliqué</h4>
             </article>
-            <article className='competence__detail'>
-              <BsPatchCheckFill className='competence__detail-icons'/>
-              <h4>Boostrap</h4>
-            </article>
           </div>
         </div>
 
