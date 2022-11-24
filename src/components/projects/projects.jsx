@@ -18,7 +18,7 @@ const Projects = () => {
           </div>
           <h3>Porfolio</h3>
           <div className="projects__item-cta">
-            <a href="https://github.com/oussamablk-1/react-portfolio_website" className='btn'>GitHub</a>
+            <a href="https://github.com/oussamablk-1/react-portfolio_website" className='btn' target='_blank'>GitHub</a>
           </div>
         </article>
 
@@ -28,7 +28,7 @@ const Projects = () => {
           </div>
           <h3>Site Full Stack Wild Code School</h3>
           <div className="projects__item-cta">
-            <a href="https://github.com/oussamablk-1/WCS-exercice-site-Full-Stack" className='btn'>GitHub</a>
+            <a href="https://github.com/oussamablk-1/WCS-exercice-site-Full-Stack" className='btn' target='_blank'>GitHub</a>
           </div>
         </article>
 
@@ -38,7 +38,7 @@ const Projects = () => {
           </div>
           <h3>Einhar</h3>
           <div className="projects__item-cta">
-            <a href="https://github.com/Drakmain/Einhar" className='btn'>Github</a>          
+            <a href="https://github.com/Drakmain/Einhar" className='btn' target='_blank'>Github</a>          
           </div>
         </article>
 
@@ -48,7 +48,7 @@ const Projects = () => {
           </div>
           <h3>Kurokabe</h3>
           <div className="projects__item-cta">
-            <a href="https://github.com/Bouierck/Kurokabe" className='btn'>Github</a>
+            <a href="https://github.com/Bouierck/Kurokabe" className='btn' target='_blank'>Github</a>
             <a href="https://www.youtube.com/watch?v=mwBdHmnsc00&ab_channel=NathanLABB%C3%89" className='btn btn-primary' target='_blank'>Démo Vidéo</a>        
           </div>
         </article>
