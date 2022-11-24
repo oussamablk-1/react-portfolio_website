@@ -39,6 +39,13 @@ export const Contact = () => {
           <h5>+33650484864</h5>
           <a href="https://wa.me/+33650484864" target='_blank'>Envoyer un message</a>
         </article>
+
+        <article className='contact__option'>
+          <BsWhatsapp className='contact__option-icon'/>
+          <h4>Twitter</h4>
+          <h5>@DevOussb</h5>
+          <a href="https://twitter.com/messages/compose?recipient_id=1589933892538089480" target='_blank'>Envoyer un message</a>
+        </article>
       </div>
 
       <form ref={form} onSubmit={sendEmail}>
