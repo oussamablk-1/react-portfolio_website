@@ -11,7 +11,10 @@ const Projects = () => {
         <article className='project__item'>
           <div className="project__item-img">
             <h3>Einhar</h3>
-            <a href=""></a>
+            <a href="https://github.com/oussamablk-1/react-portfolio_website">Portfolio</a>
+            <a href="https://github.com/oussamablk-1/WCS-exercice-site-Full-Stack">Site Full Stack Wild Code School</a>
+            <a href="https://github.com/Drakmain/Einhar">Einhar</a>
+            <a href="https://github.com/Bouierck/Kurokabe">Kurokabe</a>
           </div>
         </article>
       </div>
