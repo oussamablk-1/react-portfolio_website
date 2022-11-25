@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <section id='about'>
       <h5> Qui je suis </h5>
-      <h2>A propos</h2>
+      <h2>À propos</h2>
 
       <div className='container about__container'>
         <div className="about__me">
@@ -25,7 +25,7 @@ export const About = () => {
               <BsFillFileEarmarkCodeFill className='about__icon'/>
               <h5>Informaticien</h5>
               <small>
-                Diplômé de licence informatique, intégrant le parcours développeur d'applications web et mobile à la Wild Code School
+                Diplômé d'une licence informatique, intégrant le parcours développeur d'applications web et mobile à la Wild Code School
               </small>
             </article>
 
@@ -47,7 +47,7 @@ export const About = () => {
 
           </div>
 
-          <p>Actuellement à la recherche d'une alternance dans le domaine du développement Web sur la partie Front End vous pouvez me contacter via le formulaire de contact en appuyant sur le bouton ci-dessous.</p>
+          <p>Actuellement agé de 24 ans, je suis à la recherche d'une alternance dans le domaine du développement Web sur la partie Front End vous pouvez me contacter via le formulaire en appuyant sur le bouton ci-dessous.</p>
 
           <a href="#contact" className='btn btn-primary'>Contacter</a>
         </div>

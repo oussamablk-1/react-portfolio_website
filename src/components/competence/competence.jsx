@@ -6,7 +6,7 @@ const Competence = () => {
   return (
     <section id='competence'>
       <h5>Compétences</h5>
-      <h2>Informatique & Humaine</h2>
+      <h2>Informatiques & Humaines</h2>
 
       <div className="container competence__container">
 
@@ -95,7 +95,7 @@ const Competence = () => {
         </div>
 
         <div className="soft__skills">
-          <h3>Compétences Humains</h3>
+          <h3>Compétences Humaines</h3>
           <div className="competence__content">
             <article className='competence__detail'>
               <BsPatchCheckFill className='competence__detail-icons'/>
