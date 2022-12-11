@@ -47,7 +47,7 @@ export const About = () => {
 
           </div>
 
-          <p>Actuellement agé de 24 ans, je suis à la recherche d'une alternance dans le domaine du développement Web sur la partie Front End vous pouvez me contacter via le formulaire en appuyant sur le bouton ci-dessous.</p>
+          <p>Actuellement agé de 24 ans, je suis à la recherche d'une alternance dans le domaine du développement Web sur la partie Front End ou Full stack, vous pouvez me contacter via le formulaire en appuyant sur le bouton ci-dessous.</p>
 
           <a href="#contact" className='btn btn-primary'>Contacter</a>
         </div>
