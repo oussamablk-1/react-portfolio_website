@@ -82,3 +82,18 @@
         padding: 1rem 1rem;
     }    
 }
+
+/* ================ Ecran de tres petite taille( téléphone ) ============= */
+@media screen and (max-width: 400px)
+{
+    .competence__container
+    {
+        gap: 1rem;
+    }
+
+    .competence__container > div
+    {
+        width: 100%;
+        padding: 1rem 1rem;
+    }    
+}
