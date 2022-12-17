@@ -31,7 +31,7 @@ const Competence = () => {
             </article>
             <article className='competence__detail'>
               <BsPatchCheckFill className='competence__detail-icons'/>
-              <h4>HTTP/CSS</h4>
+              <h4>HTML/CSS</h4>
             </article>
             <article className='competence__detail'>
               <BsPatchCheckFill className='competence__detail-icons'/>
@@ -141,7 +141,7 @@ const Competence = () => {
             </article>
             <article className='competence__detail'>
               <BsPatchCheckFill className='competence__detail-icons'/>
-              <h4>Espagnol B1 Débutant/Intermediare </h4>
+              <h4>Espagnol B1 Débutant/Intermediare</h4>
             </article>
           </div>
         </div>
